@@ -4,6 +4,7 @@ import 'reusablecard.dart';
 import 'infocard.dart';
 import 'weathercard.dart';
 
+// ignore: camel_case_types
 class mainpage extends StatelessWidget {
   const mainpage({Key? key}) : super(key: key);
 

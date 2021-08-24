@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'constants.dart';
-import 'reusablecard.dart';
-import 'infocard.dart';
 import 'weathercard.dart';
-import 'mainpage.dart';
 
 void main() => runApp(MyApp());
 
@@ -32,18 +29,20 @@ class ForecastReport extends MyApp {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff070a30),
+      backgroundColor: kBackgroundColor,
       body: Column(
         children: <Widget>[
           Container(
             padding: EdgeInsets.fromLTRB(80.0, 80.0, 80.0, 25.0),
             child: Text(
               'Forecast report',
-              style: TextStyle(
-                fontSize: 27.0,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-              ),
+              style: kHeadingText,
+              // style: TextStyle(
+              //   fontSize: 27.0,
+              //   fontWeight: FontWeight.bold,
+              //   color: Colors.white,
+              //   fontFamily:
+              // ),
             ),
           ),
           Container(
@@ -183,7 +182,6 @@ class ForecastReport extends MyApp {
           ),
         ],
       ),
-      
     );
   }
 }
