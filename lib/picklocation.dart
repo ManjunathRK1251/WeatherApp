@@ -38,44 +38,40 @@ class PickLocationpage extends StatelessWidget {
         Row(
           children: [
             Expanded(
-              flex: 4,
-              child: Padding(
-                padding: EdgeInsets.all(15.0),
-                child: Container(
-                  child: TextField(
-                    decoration: InputDecoration(
-                        filled: true,
-                        fillColor: Colors.blueGrey,
-                        prefixIcon: Icon(Icons.search),
-                        hintText: 'Search',
-                        hintStyle: TextStyle(
-                          color: Colors.amberAccent,
-                        ),
-                        border: OutlineInputBorder(
-                            borderRadius:
-                                BorderRadius.all(Radius.elliptical(10, 10)))),
+              child: Container(
+                margin: EdgeInsets.only(left: 15.0),
+                child: TextField(
+                  decoration: InputDecoration(
+                    filled: true,
+                    fillColor: Color(0xff222349),
+                    prefixIcon: Icon(
+                      Icons.location_pin,
+                      color: Colors.white,
+                    ),
+                    hintText: 'Search',
+                    hintStyle: TextStyle(
+                      color: Colors.white,
+                    ),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
                   ),
                 ),
               ),
             ),
-            SizedBox(
-              width: 1,
-            ),
-            Expanded(
-              flex: 1,
-              child: Container(
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(100),
-                      border: Border.all(width: 2, color: Colors.white)),
-                  padding: EdgeInsets.all(4),
-                  child: IconButton(
-                    icon: Icon(Icons.location_pin),
-                    iconSize: 35,
-                    splashRadius: 30,
-                    color: Colors.amberAccent,
-                    onPressed: () {},
-                  )),
-            ),
+            Container(
+                margin: EdgeInsets.all(15.0),
+                decoration: BoxDecoration(
+                  shape: BoxShape.rectangle,
+                  borderRadius: BorderRadius.circular(15),
+                  color: Color(0xff222349),
+                ),
+                child: IconButton(
+                  icon: Icon(Icons.search),
+                  iconSize: 35,
+                  color: Colors.white,
+                  onPressed: () {},
+                )),
           ],
         ),
         Container(
@@ -83,13 +79,8 @@ class PickLocationpage extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              InfoSearchCard(
-                  name: 'California', temp: 32.0, weather: 'Cloudy'),
-              SizedBox(
-                width: 10,
-              ),
-              InfoSearchCard(
-                  name: 'California', temp: 45.0, weather: 'Cloudy')
+              InfoSearchCard(name: 'California', temp: 32, weather: 'Cloudy'),
+              InfoSearchCard(name: 'California', temp: 45, weather: 'Cloudy')
             ],
           ),
         )
