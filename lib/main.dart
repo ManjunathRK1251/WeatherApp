@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:weather_app/mainpage.dart';
 import 'constants.dart';
-import 'reusablecard.dart';
-import 'infocard.dart';
-import 'weathercard.dart';
-import 'mainpage.dart';
 import 'picklocation.dart';
 
 void main() {
@@ -25,7 +22,7 @@ class _HomePageState extends State<HomePage> {
       theme: ThemeData(scaffoldBackgroundColor: kBackgroundColor),
       home: Scaffold(
         //backgroundColor: Color(0xFF070a30),
-        body: PickLocationpage(),
+        body: mainpage(),
         //bottomNavigationBar: ,
       ),
     );
