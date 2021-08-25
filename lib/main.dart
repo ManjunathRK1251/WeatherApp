@@ -1,9 +1,4 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-import 'package:weather_app/mainpage.dart';
-import 'constants.dart';
-import 'picklocation.dart';
-=======
 
 import 'constants.dart';
 // import 'reusablecard.dart';
@@ -11,7 +6,6 @@ import 'constants.dart';
 // import 'weathercard.dart';
 import 'mainpage.dart';
 import 'navbar.dart';
->>>>>>> 4a72b084bef3ca222d8a6e2b7366046e011d7e42
 
 void main() {
   runApp(HomePage());
