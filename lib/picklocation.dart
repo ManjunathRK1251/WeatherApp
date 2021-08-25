@@ -74,43 +74,56 @@ class PickLocationpage extends StatelessWidget {
                 )),
           ],
         ),
-        Container(
-          margin: EdgeInsets.only(top: 20.0),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              InfoSearchCard(
-                name: 'California',
-                temp: 32,
-                weather: 'Cloudy',
-                color: Colors.blue.shade400,
+        Row(
+          children: [
+            Container(
+              margin: EdgeInsets.only(top: 20.0, left: 15),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  InfoSearchCard(
+                    name: 'California',
+                    temp: 32,
+                    weather: 'Cloudy',
+                    color: Colors.blue.shade400,
+                  ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  InfoSearchCard(
+                      name: 'California',
+                      temp: 45,
+                      weather: 'Cloudy',
+                      color: knotselectedcolour),
+                ],
               ),
-              InfoSearchCard(
-                  name: 'California',
-                  temp: 45,
-                  weather: 'Cloudy',
-                  color: knotselectedcolour),
-            ],
-          ),
+            ),
+            SizedBox(
+              width: 10,
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 45.0),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  InfoSearchCard(
+                      name: 'California',
+                      temp: 32,
+                      weather: 'Cloudy',
+                      color: knotselectedcolour),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  InfoSearchCard(
+                      name: 'California',
+                      temp: 45,
+                      weather: 'Cloudy',
+                      color: knotselectedcolour),
+                ],
+              ),
+            )
+          ],
         ),
-        Container(
-          margin: EdgeInsets.only(top: 10.0),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              InfoSearchCard(
-                  name: 'California',
-                  temp: 32,
-                  weather: 'Cloudy',
-                  color: knotselectedcolour),
-              InfoSearchCard(
-                  name: 'California',
-                  temp: 45,
-                  weather: 'Cloudy',
-                  color: knotselectedcolour),
-            ],
-          ),
-        )
       ],
     ));
   }
