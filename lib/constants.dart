@@ -7,3 +7,4 @@ const kDateTextStyle = TextStyle(color: Colors.white60, fontSize: 12.0);
 const kButtonTextStyle = TextStyle(color: Colors.white, fontSize: 13.0);
 const kinfoCardHeadingStyle = TextStyle(color: Colors.white24, fontSize: 12.0);
 const kinfoCardTextStyle = TextStyle(color: Colors.white, fontSize: 17.0);
+const kinfotextStyle = TextStyle(color: Colors.white60, fontSize: 12.0);

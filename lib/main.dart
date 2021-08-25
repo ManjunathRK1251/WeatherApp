@@ -4,6 +4,7 @@ import 'reusablecard.dart';
 import 'infocard.dart';
 import 'weathercard.dart';
 import 'mainpage.dart';
+import 'picklocation.dart';
 
 void main() {
   runApp(HomePage());
@@ -24,7 +25,7 @@ class _HomePageState extends State<HomePage> {
       theme: ThemeData(scaffoldBackgroundColor: kBackgroundColor),
       home: Scaffold(
         //backgroundColor: Color(0xFF070a30),
-        body: mainpage(),
+        body: PickLocationpage(),
         //bottomNavigationBar: ,
       ),
     );
