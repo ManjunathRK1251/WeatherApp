@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'constants.dart';
 import 'reusablecard.dart';
 import 'infocard.dart';
@@ -93,11 +94,14 @@ class mainpage extends StatelessWidget {
                     color: Colors.white,
                   ),
                 ),
-                Text(
-                  'View Full report',
-                  style: TextStyle(
-                    fontSize: 15.0,
-                    color: Colors.blue,
+                InkWell(
+                  onTap: () {},
+                  child: Text(
+                    'View Full report',
+                    style: TextStyle(
+                      fontSize: 15.0,
+                      color: Colors.blue,
+                    ),
                   ),
                 ),
               ],
