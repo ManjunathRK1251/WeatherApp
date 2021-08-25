@@ -1,7 +1,17 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:weather_app/mainpage.dart';
 import 'constants.dart';
 import 'picklocation.dart';
+=======
+
+import 'constants.dart';
+// import 'reusablecard.dart';
+// import 'infocard.dart';
+// import 'weathercard.dart';
+import 'mainpage.dart';
+import 'navbar.dart';
+>>>>>>> 4a72b084bef3ca222d8a6e2b7366046e011d7e42
 
 void main() {
   runApp(HomePage());
@@ -23,33 +33,8 @@ class _HomePageState extends State<HomePage> {
       home: Scaffold(
         //backgroundColor: Color(0xFF070a30),
         body: mainpage(),
-        //bottomNavigationBar: ,
+        bottomNavigationBar: NavigationBar(),
       ),
     );
   }
 }
-
-/* 
-Expanded(
-              child: Container(
-                //padding: EdgeInsets.only(top: 20.0),
-                child: Center(
-                  child: Text(
-                    'San Fransisco',
-                    style: kHeadingText,
-                  ),
-                ),
-              ),
-            ),
-            Expanded(
-              child: Container(
-                //padding: EdgeInsets.all(50.0),
-                child: Center(
-                  child: Text(
-                    'May 28 2021',
-                    style: kDateTextStyle,
-                  ),
-                ),
-              ),
-            ),
-*/
