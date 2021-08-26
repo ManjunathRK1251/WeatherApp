@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'constants.dart';
-import 'reusablecard.dart';
-import 'infocard.dart';
-import 'weathercard.dart';
 import 'mainpage.dart';
 import 'navbar.dart';
 
