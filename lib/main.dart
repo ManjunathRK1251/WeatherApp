@@ -1,5 +1,13 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'constants.dart';
+=======
+
+import 'constants.dart';
+// import 'reusablecard.dart';
+// import 'infocard.dart';
+// import 'weathercard.dart';
+>>>>>>> parent of 01e156e (- navbar, + navigaion functionality)
 import 'mainpage.dart';
 import 'navbar.dart';
 
