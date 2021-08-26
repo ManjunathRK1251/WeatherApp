@@ -1,20 +1,8 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
 import 'package:weather_app/forecast_report.dart';
 import 'constants.dart';
 import 'picklocation.dart';
-=======
-<<<<<<< HEAD
-import 'constants.dart';
-=======
-
-import 'constants.dart';
-// import 'reusablecard.dart';
-// import 'infocard.dart';
-// import 'weathercard.dart';
->>>>>>> parent of 01e156e (- navbar, + navigaion functionality)
->>>>>>> master
 import 'mainpage.dart';
 
 void main() => runApp(HomePage());

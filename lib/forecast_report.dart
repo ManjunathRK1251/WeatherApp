@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'constants.dart';
 import 'weathercard.dart';
-<<<<<<< HEAD
-=======
-import 'navbar.dart';
->>>>>>> master
 
 void main() => runApp(MyApp());
 
@@ -118,11 +114,8 @@ class ForecastReport extends MyApp {
               ),
             ),
             Container(
-<<<<<<< HEAD
               height: 390,
-=======
-              height: 435,
->>>>>>> master
+              //height: 435,
               width: double.infinity,
               padding: EdgeInsets.only(left: 15.0, right: 15.0),
               child: ListView.builder(
@@ -162,11 +155,7 @@ class ForecastReport extends MyApp {
                           child: Text(
                             '${temperatures[index]}°C',
                             style: TextStyle(
-<<<<<<< HEAD
                               fontSize: 28.0,
-=======
-                              fontSize: 32.0,
->>>>>>> master
                               color: Colors.white,
                             ),
                           ),
@@ -188,10 +177,6 @@ class ForecastReport extends MyApp {
           ],
         ),
       ),
-<<<<<<< HEAD
-=======
-      bottomNavigationBar: NavigationBar(),
->>>>>>> master
     );
   }
 }
