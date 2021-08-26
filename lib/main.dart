@@ -1,7 +1,6 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:weather_app/forecast_report.dart';
-
 import 'constants.dart';
 import 'picklocation.dart';
 import 'mainpage.dart';

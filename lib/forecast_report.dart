@@ -114,7 +114,7 @@ class ForecastReport extends MyApp {
               ),
             ),
             Container(
-              height: 435,
+              height: 390,
               width: double.infinity,
               padding: EdgeInsets.only(left: 15.0, right: 15.0),
               child: ListView.builder(
@@ -154,7 +154,7 @@ class ForecastReport extends MyApp {
                           child: Text(
                             '${temperatures[index]}°C',
                             style: TextStyle(
-                              fontSize: 32.0,
+                              fontSize: 28.0,
                               color: Colors.white,
                             ),
                           ),
