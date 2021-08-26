@@ -19,7 +19,6 @@ class mainpage extends StatelessWidget {
             child: Column(
               children: [
                 Container(
-                  //padding: EdgeInsets.only(top: 20.0),
                   child: Center(
                     child: Text(
                       'San Fransisco',
@@ -29,8 +28,6 @@ class mainpage extends StatelessWidget {
                 ),
                 Padding(padding: EdgeInsets.all(5.0)),
                 Container(
-                  //padding: EdgeInsets.only(top: 20.0),
-                  //padding: EdgeInsets.all(50.0),
                   child: Center(
                     child: Text(
                       'May 28 2021',
@@ -82,11 +79,7 @@ class mainpage extends StatelessWidget {
             padding: EdgeInsets.all(15.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              //crossAxisAlignment: CrossAxisAlignment.baseline,
               children: [
-                /*Padding(
-                      padding: EdgeInsets.all(15.0),
-                    ),*/
                 Text(
                   'Today',
                   style: TextStyle(

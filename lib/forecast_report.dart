@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'constants.dart';
 import 'weathercard.dart';
-import 'navbar.dart';
 
 void main() => runApp(MyApp());
 
@@ -177,7 +176,6 @@ class ForecastReport extends MyApp {
           ],
         ),
       ),
-      bottomNavigationBar: NavigationBar(),
     );
   }
 }
