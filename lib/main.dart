@@ -23,7 +23,6 @@ class _HomePageState extends State<HomePage> {
       pageController.animateToPage(index,
           duration: Duration(milliseconds: 300), curve: Curves.ease);
     });
-    // pageController.jumpToPage(index);
   }
 
   void onPageChanged(int page) {
