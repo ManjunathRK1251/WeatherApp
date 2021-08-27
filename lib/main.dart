@@ -44,7 +44,6 @@ class _HomePageState extends State<HomePage> {
       theme: ThemeData(scaffoldBackgroundColor: kBackgroundColor),
       home: Scaffold(
         body: PageView(
-          // physics: NeverScrollableScrollPhysics(),
           controller: pageController,
           onPageChanged: onPageChanged,
           children: [
