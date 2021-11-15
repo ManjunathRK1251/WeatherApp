@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'constants.dart';
-import 'weathercard.dart';
+import '../constants.dart';
+import '../Components/weathercard.dart';
 
 void main() => runApp(MyApp());
 

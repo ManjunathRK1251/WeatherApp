@@ -1,9 +1,9 @@
 // import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:weather_app/forecast_report.dart';
+import 'package:weather_app/screens/forecast_report.dart';
 import 'constants.dart';
-import 'picklocation.dart';
-import 'mainpage.dart';
+import 'screens/picklocation.dart';
+import 'screens/mainpage.dart';
 
 void main() => runApp(HomePage());
 
@@ -89,10 +89,12 @@ class _HomePageState extends State<HomePage> {
           child: BottomNavigationBar(
             backgroundColor: Color(0xFF070a30),
             items: <BottomNavigationBarItem>[
-              BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Home'),
-              BottomNavigationBarItem(icon: Icon(Icons.search),label: 'Search'),
-              BottomNavigationBarItem(icon: Icon(Icons.today),label: 'Today'),
-              BottomNavigationBarItem(icon: Icon(Icons.settings),label: 'Settings'),
+              BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.search), label: 'Search'),
+              BottomNavigationBarItem(icon: Icon(Icons.today), label: 'Today'),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.settings), label: 'Settings'),
             ],
             onTap: onTapped,
             currentIndex: _selectedIndex,

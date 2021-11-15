@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'constants.dart';
+import '../constants.dart';
 
 class InfoCard extends StatelessWidget {
   InfoCard({required this.headingText, required this.text});

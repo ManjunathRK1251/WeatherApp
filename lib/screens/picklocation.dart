@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'constants.dart';
-import 'infosearchcard.dart';
+import '../constants.dart';
+import '../Components/infosearchcard.dart';
 
 class PickLocationpage extends StatelessWidget {
   const PickLocationpage({Key? key}) : super(key: key);
