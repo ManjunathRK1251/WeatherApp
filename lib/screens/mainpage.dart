@@ -19,6 +19,7 @@ class mainpage extends StatelessWidget {
             child: Column(
               children: [
                 Container(
+                  margin: EdgeInsets.only(top: 20.0),
                   child: Center(
                     child: Text(
                       'San Fransisco',
