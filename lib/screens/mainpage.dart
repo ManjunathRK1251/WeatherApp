@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../constants.dart';
 import '../Components/reusablecard.dart';
 import '../Components/infocard.dart';
-import '../weathercard.dart';
+import '../Components/weathercard.dart';
 
 // ignore: camel_case_types
 class mainpage extends StatelessWidget {
